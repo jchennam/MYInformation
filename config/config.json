@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "my-info-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myInfo/MyInfoWebPart.js",
+          "manifest": "./src/webparts/myInfo/MyInfoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MyInfoWebPartStrings": "lib/webparts/myInfo/loc/{locale}.js"
+  }
+}
